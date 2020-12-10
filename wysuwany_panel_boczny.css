@@ -1,0 +1,13 @@
+.wysuwany_panel_boczny {
+    background: #ABB2B9;
+    left: -13%;
+    position: fixed;
+    top: 0px;
+    transition: transform 0.4s;
+    width: 15%;
+    height: 100%;
+}
+
+.wysuwany_panel_boczny:hover {
+    transform: translateX(86%);
+}
